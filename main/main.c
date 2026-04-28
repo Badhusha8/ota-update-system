@@ -13,8 +13,8 @@
 
 static const char *TAG = "OTA";
 
-#define WIFI_SSID      "Tecnologia"
-#define WIFI_PASSWORD  "11213141"
+#define WIFI_SSID      "CONFIG_WIFI_SSID"
+#define WIFI_PASSWORD  "CONFIG_WIFI_PASSWORD"
 #define OTA_URL        "http://10.36.215.22:8070/esp32_ota.bin"
 #define LED_PIN        GPIO_NUM_2
 
