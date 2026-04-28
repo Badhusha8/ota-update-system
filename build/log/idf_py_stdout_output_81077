@@ -1,0 +1,48 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/badhusha/Esp_OTA/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/badhusha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/badhusha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/badhusha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/badhusha/Esp_OTA/sdkconfig
+Loading defaults file /home/badhusha/Esp_OTA/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/badhusha/.espressif/python_env/idf5.2_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "esp32_ota" version: 1
+-- Adding linker script /home/badhusha/Esp_OTA/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/badhusha/esp-idf-v5.2/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/badhusha/esp-idf-v5.2/components/app_trace /home/badhusha/esp-idf-v5.2/components/app_update /home/badhusha/esp-idf-v5.2/components/bootloader /home/badhusha/esp-idf-v5.2/components/bootloader_support /home/badhusha/esp-idf-v5.2/components/bt /home/badhusha/esp-idf-v5.2/components/cmock /home/badhusha/esp-idf-v5.2/components/console /home/badhusha/esp-idf-v5.2/components/cxx /home/badhusha/esp-idf-v5.2/components/driver /home/badhusha/esp-idf-v5.2/components/efuse /home/badhusha/esp-idf-v5.2/components/esp-tls /home/badhusha/esp-idf-v5.2/components/esp_adc /home/badhusha/esp-idf-v5.2/components/esp_app_format /home/badhusha/esp-idf-v5.2/components/esp_bootloader_format /home/badhusha/esp-idf-v5.2/components/esp_coex /home/badhusha/esp-idf-v5.2/components/esp_common /home/badhusha/esp-idf-v5.2/components/esp_eth /home/badhusha/esp-idf-v5.2/components/esp_event /home/badhusha/esp-idf-v5.2/components/esp_gdbstub /home/badhusha/esp-idf-v5.2/components/esp_hid /home/badhusha/esp-idf-v5.2/components/esp_http_client /home/badhusha/esp-idf-v5.2/components/esp_http_server /home/badhusha/esp-idf-v5.2/components/esp_https_ota /home/badhusha/esp-idf-v5.2/components/esp_https_server /home/badhusha/esp-idf-v5.2/components/esp_hw_support /home/badhusha/esp-idf-v5.2/components/esp_lcd /home/badhusha/esp-idf-v5.2/components/esp_local_ctrl /home/badhusha/esp-idf-v5.2/components/esp_mm /home/badhusha/esp-idf-v5.2/components/esp_netif /home/badhusha/esp-idf-v5.2/components/esp_netif_stack /home/badhusha/esp-idf-v5.2/components/esp_partition /home/badhusha/esp-idf-v5.2/components/esp_phy /home/badhusha/esp-idf-v5.2/components/esp_pm /home/badhusha/esp-idf-v5.2/components/esp_psram /home/badhusha/esp-idf-v5.2/components/esp_ringbuf /home/badhusha/esp-idf-v5.2/components/esp_rom /home/badhusha/esp-idf-v5.2/components/esp_system /home/badhusha/esp-idf-v5.2/components/esp_timer /home/badhusha/esp-idf-v5.2/components/esp_wifi /home/badhusha/esp-idf-v5.2/components/espcoredump /home/badhusha/esp-idf-v5.2/components/esptool_py /home/badhusha/esp-idf-v5.2/components/fatfs /home/badhusha/esp-idf-v5.2/components/freertos /home/badhusha/esp-idf-v5.2/components/hal /home/badhusha/esp-idf-v5.2/components/heap /home/badhusha/esp-idf-v5.2/components/http_parser /home/badhusha/esp-idf-v5.2/components/idf_test /home/badhusha/esp-idf-v5.2/components/ieee802154 /home/badhusha/esp-idf-v5.2/components/json /home/badhusha/esp-idf-v5.2/components/log /home/badhusha/esp-idf-v5.2/components/lwip /home/badhusha/Esp_OTA/main /home/badhusha/esp-idf-v5.2/components/mbedtls /home/badhusha/esp-idf-v5.2/components/mqtt /home/badhusha/esp-idf-v5.2/components/newlib /home/badhusha/esp-idf-v5.2/components/nvs_flash /home/badhusha/esp-idf-v5.2/components/nvs_sec_provider /home/badhusha/esp-idf-v5.2/components/openthread /home/badhusha/esp-idf-v5.2/components/partition_table /home/badhusha/esp-idf-v5.2/components/perfmon /home/badhusha/esp-idf-v5.2/components/protobuf-c /home/badhusha/esp-idf-v5.2/components/protocomm /home/badhusha/esp-idf-v5.2/components/pthread /home/badhusha/esp-idf-v5.2/components/sdmmc /home/badhusha/esp-idf-v5.2/components/soc /home/badhusha/esp-idf-v5.2/components/spi_flash /home/badhusha/esp-idf-v5.2/components/spiffs /home/badhusha/esp-idf-v5.2/components/tcp_transport /home/badhusha/esp-idf-v5.2/components/ulp /home/badhusha/esp-idf-v5.2/components/unity /home/badhusha/esp-idf-v5.2/components/usb /home/badhusha/esp-idf-v5.2/components/vfs /home/badhusha/esp-idf-v5.2/components/wear_levelling /home/badhusha/esp-idf-v5.2/components/wifi_provisioning /home/badhusha/esp-idf-v5.2/components/wpa_supplicant /home/badhusha/esp-idf-v5.2/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/badhusha/Esp_OTA/build
